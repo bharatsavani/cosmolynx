@@ -11,15 +11,17 @@
 
   <meta property="og:title" content="CosmoLynx - Transforming Ideas into Cutting-Edge Digital Solutions">
   <meta property="og:description" content="At Cosmolynx, we deliver innovative IT and web development solutions designed to scale with your business. Let us turn your vision into reality.">
-  <!-- <meta property="og:image" content="https://yourwebsite.com/image.jpg"> -->
+  <meta property="og:image" content="https://www.cosmolynx.in/assets/img/image.jpg">
   <meta property="og:url" content="https://www.cosmolynx.in/">
   <meta http-equiv="content-language" content="en">
 
-
   <!-- Favicons -->
-  <!-- <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
-
+  <link href="assets/favicon/favicon.ico" rel="icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -43,12 +45,12 @@
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center sticky-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between" itemscope itemtype="http://schema.org/Organization">
 
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="https://www.cosmolynx.in/" itemprop="url" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename"><span>C</span>osmo<span>L</span>ynx</h1>
+        <h1  itemprop="logo" class="sitename"><span>C</span>osmo<span>L</span>ynx</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -70,14 +72,14 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
 
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+      <div class="container position-relative">
         <div class="row gy-5">
-          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" itemscope itemtype="http://schema.org/Organization">
             <h2>
               Transforming Ideas <br />
               into Cutting-Edge <br />
               Digital Solutions</h2>
-            <p>At Cosmolynx, we deliver innovative IT and web development solutions designed to scale with your business. Let us turn your vision into reality.</p>
+            <p itemprop="description">At Cosmolynx, we deliver innovative IT and web development solutions designed to scale with your business. Let us turn your vision into reality.</p>
             <div class="d-flex">
               <a href="#contact" class="btn-get-started">Get a Free Consultation</a>
               <a href="#services" class="glightbox btn-watch-video d-flex align-items-center">Explore Our Services</a>
@@ -105,17 +107,17 @@
             </div>
           </div>
 
-          <div class="col-lg-6 content order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6 content order-1 order-lg-2" data-aos="fade-up" data-aos-delay="100" itemscope itemtype="http://schema.org/AboutPage">
             <p class="who-we-are">Who We Are</p>
             <h3>Building the Future
             </h3>
-            <p class="fst-italic">
+            <p class="fst-italic" itemprop="description">
               We are a passionate team of developers skilled in technologies like Node.js, Vue.js, React, Angular, and Bootstrap. We specialize in transforming Figma designs into fully functional web applications and delivering robust web development services tailored to meet your business needs. Our expertise drives innovation, turning your ideas into dynamic digital experiences.
             </p>
             <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Dedicated to creating scalable and efficient solutions</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Proficient in modern web development technologies</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Expert in Figma to web app conversions</span></li>
+              <li><i class="bi bi-check-circle"></i> <span itemprop="description">Dedicated to creating scalable and efficient solutions</span></li>
+              <li><i class="bi bi-check-circle"></i> <span itemprop="description">Proficient in modern web development technologies</span></li>
+              <li><i class="bi bi-check-circle"></i> <span itemprop="description">Expert in Figma to web app conversions</span></li>
             </ul>
             <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
           </div>
@@ -140,78 +142,78 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4 col-12" data-aos="fade-up" itemscope itemtype="http://schema.org/Service" data-aos-delay="100">
             <div class="service-item  position-relative">
               <div class="icon">
                 <i class="bi bi-pc-display-horizontal"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Website Development</h3>
+                <h3 itemprop="serviceType">Website Development</h3>
               </a>
-              <p>We craft responsive, dynamic, and user-friendly websites using modern frameworks like Vue.js, React, and Bootstrap. Our websites are optimized for performance, and accessibility, and tailored to meet your business goals.</p>
+              <p  itemprop="description">We craft responsive, dynamic, and user-friendly websites using modern frameworks like Vue.js, React, and Bootstrap. Our websites are optimized for performance, and accessibility, and tailored to meet your business goals.</p>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-4 col-12" data-aos="fade-up" itemscope itemtype="http://schema.org/Service" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-phone"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Application Development</h3>
+                <h3 itemprop="serviceType">Application Development</h3>
               </a>
-              <p>From concept to deployment, we develop robust web and mobile applications that are scalable and secure. We use cutting-edge technologies such as Node.js and Angular to build solutions that drive efficiency and innovation.</p>
+              <p  itemprop="description">From concept to deployment, we develop robust web and mobile applications that are scalable and secure. We use cutting-edge technologies such as Node.js and Angular to build solutions that drive efficiency and innovation.</p>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-12" data-aos="fade-up" itemscope itemtype="http://schema.org/Service" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-search"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Quality Assurance (Q/A) </h3>
+                <h3 itemprop="serviceType">Quality Assurance (Q/A) </h3>
               </a>
-              <p>Our comprehensive QA services ensure your applications are thoroughly tested for functionality, performance, and usability. We deliver bug-free, reliable solutions to ensure smooth and error-free user experiences.</p>
+              <p  itemprop="description">Our comprehensive QA services ensure your applications are thoroughly tested for functionality, performance, and usability. We deliver bug-free, reliable solutions to ensure smooth and error-free user experiences.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-12" data-aos="fade-up" itemscope itemtype="http://schema.org/Service" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-server"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Cloud and DevOps</h3>
+                <h3 itemprop="serviceType">Cloud and DevOps</h3>
               </a>
-              <p>We provide seamless cloud integration and DevOps services, optimizing your infrastructure for scalability and efficiency. We streamline processes from CI/CD pipelines to cloud architecture to enhance speed and reliability.</p>
+              <p  itemprop="description">We provide seamless cloud integration and DevOps services, optimizing your infrastructure for scalability and efficiency. We streamline processes from CI/CD pipelines to cloud architecture to enhance speed and reliability.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-4 col-12" data-aos="fade-up" itemscope itemtype="http://schema.org/Service" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-bounding-box-circles"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>UI/UX Design</h3>
+                <h3 itemprop="serviceType">UI/UX Design</h3>
               </a>
-              <p>We create visually engaging, intuitive user interfaces and design seamless user experiences. Our process includes user research, prototyping, and usability testing to ensure that the product is both functional and aesthetically appealing.</p>
+              <p  itemprop="description">We create visually engaging, intuitive user interfaces and design seamless user experiences. Our process includes user research, prototyping, and usability testing to ensure that the product is both functional and aesthetically appealing.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-12" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-4 col-12" data-aos="fade-up" itemscope itemtype="http://schema.org/Service" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-shop-window"></i>
               </div>
               <a href="#" class="stretched-link">
-                <h3>Digital Marketing</h3>
+                <h3 itemprop="serviceType">Digital Marketing</h3>
               </a>
-              <p>We offer comprehensive digital marketing services, including SEO, content marketing, social media management, and PPC advertising. Our strategies are data-driven, designed to enhance your brand's online visibility and drive targeted traffic.</p>
+              <p  itemprop="description">We offer comprehensive digital marketing services, including SEO, content marketing, social media management, and PPC advertising. Our strategies are data-driven, designed to enhance your brand's online visibility and drive targeted traffic.</p>
               <a href="#" class="stretched-link"></a>
             </div>
           </div><!-- End Service Item -->
@@ -332,12 +334,17 @@
 
         <div class="row gy-4">
 
-          <div class="col-lg-4">
+          <div class="col-lg-4" itemscope itemtype="http://schema.org/Organization">
             <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Address</h3>
-                <p>406, Madhav Plaza, Near Lal Bunglow, Patrakar colony, Jamnagar-361001, Gujarat, India</p>
+                <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+                  <span itemprop="streetAddress">406, Madhav Plaza,Near Lal Bunglow</span>
+                  <span itemprop="addressLocality">Patrakar colony,Jamnagar,Gujarat,</span>
+                  <span itemprop="postalCode">361001</span>
+                  <span itemprop="addressCountry">India</span>
+                </p>
               </div>
             </div><!-- End Info Item -->
 
@@ -345,7 +352,7 @@
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+91 9712608695</p>
+                <p itemprop="telephone">+91 9712608695</p>
               </div>
             </div><!-- End Info Item -->
 
@@ -353,7 +360,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>business@cosmolynx.in</p>
+                <p itemprop="email">business@cosmolynx.in</p>
               </div>
             </div><!-- End Info Item -->
 
